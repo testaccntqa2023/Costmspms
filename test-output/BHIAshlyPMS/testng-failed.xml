@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BHIAshlyPMS]">
+  <listeners>
+    <listener class-name="com.bhiawpkg.Utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTest_AshlyPMS(failed)">
+    <classes>
+      <class name="com.bhiawpkg.Tests.Report_DownloadTest">
+        <methods>
+          <include name="CreateAndDownload_ProjectReport_Progress"/>
+          <include name="Login"/>
+          <include name="Download_Assignedtsk"/>
+          <include name="Download_ProjectGanttchart"/>
+          <include name="afterdownload"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bhiawpkg.Tests.Report_DownloadTest -->
+      <class name="com.bhiawpkg.Tests.DependentTaskTest">
+        <methods>
+          <include name="DependentTask" invocation-numbers="0"/>
+          <include name="GetAddTask"/>
+          <include name="Verifysuccessful"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bhiawpkg.Tests.DependentTaskTest -->
+    </classes>
+  </test> <!-- RegressionTest_AshlyPMS(failed) -->
+</suite> <!-- Failed suite [BHIAshlyPMS] -->

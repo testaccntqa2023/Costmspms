@@ -1,0 +1,6 @@
+﻿#
+"Daily Punch Report"
+Date,14/10/2021
+"Selected Site","Not Selected","Selected Shift","Not Selected"
+#,"Emp Code",Name,Status,"First Punch","Last Punch",time,"OUT time","Tot Time","Tot Punch","Tot Break Time","Over Time",Shift
+1,,"MEBIN A",IN,08:59:31,08:59:31,00:01:56,-,00:01:56,1," - "," - ","No shift"

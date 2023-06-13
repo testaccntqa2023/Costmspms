@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ProjemPMS]">
+  <listeners>
+    <listener class-name="com.bhiawpkg.Utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Regression costmspms(failed)">
+    <classes>
+      <class name="com.bhiawpkg.Tests.DeleteAssignedTaskTest">
+        <methods>
+          <include name="Login"/>
+          <include name="Verifysuccessful"/>
+          <include name="DeleteAssignedTask"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bhiawpkg.Tests.DeleteAssignedTaskTest -->
+    </classes>
+  </test> <!-- Regression costmspms(failed) -->
+</suite> <!-- Failed suite [ProjemPMS] -->

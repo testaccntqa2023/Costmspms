@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.bhiawpkg.Tests.AMSTest">
+        <methods>
+          <include name="PhotoPunch"/>
+          <include name="PhotopunchApprove"/>
+          <include name="Logout"/>
+          <include name="GetAMS_Login"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bhiawpkg.Tests.AMSTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

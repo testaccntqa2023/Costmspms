@@ -1,0 +1,5 @@
+S.NO.,TITLE,PROJECT,"ASSIGNED TO",COORDINATOR,QUANTITY,"PROGRESS %","TASK DURATION","DAILY TARGET","REQUIRED WORKERS","START DATE","END DATE",STATUS,"TASK TYPE","TASK OWNER",CONTRACTOR
+1,Painting,AXIS,,,&nbsp;,0,&nbsp;,&nbsp;,&nbsp;,&nbsp;,14-Oct-21,14-Nov-21,"Unassigned Tasks",External,,,
+2,SUBTSK3,AXIS,"MEBIN A","BHI Developer","500.00 (Sq Ft)",4.00,"32 days",15.63,"TOUGHEN GLASS WORKS ",1,14-Oct-21,14-Nov-21,In-progress,External,"BHI Developer",Astle,
+3,INT01,AXIS,"MEBIN A","BHI Developer","500.00 (Sq Ft)",0,"32 days",15.63,"TOUGHEN GLASS WORKS ",1,14-Oct-21,14-Nov-21,In-progress,Internal,"BHI Developer",Astle,
+4,INT02,AXIS,"MEBIN A","BHI Developer","500.00 (Sq Ft)",0,"32 days",15.63,"TOUGHEN GLASS WORKS ",1,14-Oct-21,14-Nov-21,In-progress,Internal,"BHI Developer",Astle,

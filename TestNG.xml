@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false"  name="ProjemPMS">
+<listeners>
+		<listener class-name="com.bhiawpkg.Utility.Reporting" />
+</listeners>
+<test name="Regression costmspms"  > <!--  Major functionalities section-->
+    <classes>
+     
+   <class name="com.bhiawpkg.Tests.ExpiredInternalTaskCreationTest" />
+     <class name="com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest" /> 
+     <class name="com.bhiawpkg.Tests.ExpiredExternalWPRTest" />
+     <class name="com.bhiawpkg.Tests.ExpiredInternalTaskTest" />
+     <class name="com.bhiawpkg.Tests.DeleteAssignedTaskTest" />
+    </classes>
+ </test> <!-- Test -->
+<test name="Regression costmspms" enabled="false" > <!--  Major functionalities section-->
+    <classes>
+     <class name="com.bhiawpkg.Tests.ClientTest" />
+     <class name="com.bhiawpkg.Tests.UsercreationTest" />
+     <class name="com.bhiawpkg.Tests.MenupermissionTest" />
+     </classes>
+ </test> <!-- Test -->
+<test name="Regression costmspms" enabled="false"  > <!--  Major functionalities section-->
+    <classes>
+     <!--  <class name="com.bhiawpkg.Tests.ClientTest" />
+     <class name="com.bhiawpkg.Tests.UsercreationTest" />
+     <class name="com.bhiawpkg.Tests.MenupermissionTest" />
+      <class name="com.bhiawpkg.Tests.NewTestDD" /> -->
+     <class name="com.bhiawpkg.Tests.AssignedTaskTest"/>
+     <class name="com.bhiawpkg.Tests.CreateTemplate"/>
+      <class name="com.bhiawpkg.Tests.ProjectMapping"/>
+      <class name="com.bhiawpkg.Tests.WarehouseTest"/>"
+     <class name="com.bhiawpkg.Tests.ItemEstimationTest"/>
+     <class name="com.bhiawpkg.Tests.MonthlyTaskTest"/>
+     <class name="com.bhiawpkg.Tests.WPRTest"/>
+      <class name="com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest" />
+     <class name="com.bhiawpkg.Tests.ExpiredInternalTaskCreationTest" />
+	</classes>
+ </test> <!-- Test -->
+ <test name="SmokeTest_External_Internal" enabled="false" > <!--  Major functionalities section-->
+    <classes>
+    
+      <class name="com.bhiawpkg.Tests.WPRTest"/>
+	 <class name="com.bhiawpkg.Tests.LAbourDetailsAdd_Edit"/>
+    
+     <class name="com.bhiawpkg.Tests.AddTask_InternalTest"/>
+     <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+     </classes>
+ </test> <!-- Test -->
+ 
+ 
+ <test name="RegressionTest_AshlyPMS"  enabled="false"><!-- MAjor functions & filter_report section-->
+<!-- <parameter name="browser" value="Chrome"/>
+
+<class name="com.bhiawpkg.Tests.ClientTest" />
+<class name="com.bhiawpkg.Tests.UsercreationTest" />
+     <class name="com.bhiawpkg.Tests.MenupermissionTest" />
+      
+-->
+    <classes>
+     <class name="com.bhiawpkg.Tests.NewTestDD" /> 
+     <class name="com.bhiawpkg.Tests.AssignedTaskTest"/> 
+      <class name="com.bhiawpkg.Tests.AddTask_InternalTest"/> 
+      <class name="com.bhiawpkg.Tests.WPRTest"/>
+	 <class name="com.bhiawpkg.Tests.LAbourDetailsAdd_Edit"/>
+     <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+     <class name="com.bhiawpkg.Tests.AllWorkProgressfilterTest"/>
+     <class name="com.bhiawpkg.Tests.ProjectMasterSchedule"/>
+     <class name="com.bhiawpkg.Tests.Manageaccessidtest"/>
+     <class name="com.bhiawpkg.Tests.AssignedTaskFilterTest"/> 
+     <class name="com.bhiawpkg.Tests.ServiceReportTest"/>
+     <class name="com.bhiawpkg.Tests.TaskStatusDateAssigne_changes"/>
+     <class name="com.bhiawpkg.Tests.MytaskTest"/>
+    <class name="com.bhiawpkg.Tests.UserEditDelete"/>
+    <class name="com.bhiawpkg.Tests.Report_DownloadTest"/>
+      <class name="com.bhiawpkg.Tests.DependentTaskTest"/>
+     <class name="com.bhiawpkg.Tests.NewMeetingTest"/>
+    
+    </classes>
+ </test>
+ <test name="RegressionTest_AshlyPMS_edge"  enabled="false" ><!-- MAjor functions & filter_report section-->
+ <parameter name="browser" value="edge"/>
+    <classes>
+     <class name="com.bhiawpkg.Tests.ClientTest" />
+     <class name="com.bhiawpkg.Tests.UsercreationTest" />
+     <class name="com.bhiawpkg.Tests.MenupermissionTest" />
+      <class name="com.bhiawpkg.Tests.NewTestDD" /> 
+     <class name="com.bhiawpkg.Tests.AssignedTaskTest"/>
+  	 <class name="com.bhiawpkg.Tests.WPRTest"/>
+	 <class name="com.bhiawpkg.Tests.LAbourDetailsAdd_Edit"/>
+     <class name="com.bhiawpkg.Tests.AddTask_InternalTest"/>
+     <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+      <class name="com.bhiawpkg.Tests.AllWorkProgressfilterTest"/>
+     <class name="com.bhiawpkg.Tests.ProjectMasterSchedule"/>
+     <class name="com.bhiawpkg.Tests.Manageaccessidtest"/>
+     <class name="com.bhiawpkg.Tests.AssignedTaskFilterTest"/>
+     <class name="com.bhiawpkg.Tests.NewMeetingTest"/>
+     <class name="com.bhiawpkg.Tests.ServiceReportTest"/>
+     <class name="com.bhiawpkg.Tests.TaskStatusDateAssigne_changes"/>
+     <class name="com.bhiawpkg.Tests.MytaskTest"/>
+    <class name="com.bhiawpkg.Tests.UserEditDelete"/>
+     <class name="com.bhiawpkg.Tests.Report_DownloadTest"/>
+         </classes>
+ </test>
+ 
+ <test name="RegressionTest_AshlyPMS"  enabled="false"  ><!--  filter_report section-->
+    <classes>
+     <class name="com.bhiawpkg.Tests.AllWorkProgressfilterTest"/>
+     <class name="com.bhiawpkg.Tests.ProjectMasterSchedule"/>
+     <class name="com.bhiawpkg.Tests.Manageaccessidtest"/>
+     <class name="com.bhiawpkg.Tests.AssignedTaskFilterTest"/>
+     <class name="com.bhiawpkg.Tests.NewMeetingTest"/>
+     <class name="com.bhiawpkg.Tests.ServiceReportTest"/>
+     <class name="com.bhiawpkg.Tests.TaskStatusDateAssigne_changes"/>
+     <class name="com.bhiawpkg.Tests.MytaskTest"/>
+     <class name="com.bhiawpkg.Tests.UserEditDelete"/>
+     <class name="com.bhiawpkg.Tests.Report_DownloadTest"/>
+    </classes>
+ </test>
+ 
+ <test name="SmokeTest_Internal"  enabled="false" >
+    <classes>
+      <class name="com.bhiawpkg.Tests.NewTestDD" /> 
+  	 <class name="com.bhiawpkg.Tests.AddTask_InternalTest"/>
+	<!--  <class name="com.bhiawpkg.Tests.WPRTest"/>
+	 <class name="com.bhiawpkg.Tests.LAbourDetailsAdd_Edit"/>-->
+     <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+    </classes>
+ </test> <!-- Test -->
+ 
+  <test name="RegressionTest_AshlyPMS"  enabled="false"  >
+    <classes>
+    <!--   <class name="com.bhiawpkg.Tests.ClientTest" />
+     <class name="com.bhiawpkg.Tests.UsercreationTest" />-->
+     <class name="com.bhiawpkg.Tests.AddTask_InternalTest" />
+  </classes>
+ </test>
+ <test name="RegressionTest_AshlyPMS"  enabled="false"  >
+    <classes>
+   
+     <class name="com.bhiawpkg.Tests.WPRTest"/>
+    
+  
+	 <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+  
+     
+    </classes>
+ </test>
+ <test name="SmokeTest_AshlyPMS_chrome" enabled="false" ><!--  External -->
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+  	<class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+     </classes>
+ </test> 
+ <test name="SmokeTest_AshlyPMS_edge" enabled="false" ><!--  External -->
+    <parameter name="browser" value="edge"/>
+    <classes>
+  	<class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+  </classes>
+ </test>
+ 
+ 
+ <test name="SmokeTest_AshlyPMS" enabled="false"><!--  Internal -->
+    <classes>
+  	 <class name="com.bhiawpkg.Tests.DDTProjectCreation" />
+     <class name="com.bhiawpkg.Tests.AddTask_InternalTest"/>
+	 <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+     
+     </classes>
+ </test> 
+ <test name="Projectcreation"  enabled="false" >
+ 	<classes>
+ 	<class name="com.bhiawpkg.Tests.DDTProjectCreation"/>
+ 	<class name="com.bhiawpkg.Tests.AssignedTaskTest"/>
+ 	</classes>
+ </test>
+ <test name="External Task creation"  enabled="false">
+ 	<classes>
+ 	<class name="com.bhiawpkg.Tests.AssignedTaskTest"/>
+ 
+ 	</classes>
+ </test>
+ <test name="Internal Task creation" enabled="false" >
+ 	<classes>
+ 	
+ 	 <class name="com.bhiawpkg.Tests.TimeEntryTest"/>
+ 	</classes>
+  </test>
+  
+  <test name="Usereditdelete" enabled="false" >
+ 	<classes>
+  <class name="com.bhiawpkg.Tests.UserEditDelete"/>
+  </classes>
+  </test>
+  <test name="AMS" enabled="false">
+ 	<classes>
+ 	
+ 	</classes>
+  </test>
+  <test name="Report download" enabled="false">
+ 	<classes>
+ 	<class name="com.bhiawpkg.Tests.Report_DownloadTest"/>
+ 	</classes>
+  </test>
+</suite> <!-- Suite -->
+
+	<!--<class name="com.bhiawpkg.Tests.Project_CreationTest"/>-->
+	 <!--  <class name="com.bhiawpkg.Tests.ActionsWPR"/>-->
