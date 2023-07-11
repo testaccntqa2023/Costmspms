@@ -19,6 +19,8 @@ com\bhiawpkg\Tests\SampleTestFunction.class
 com\bhiawpkg\Tests\DependentTaskTest.class
 com\bhiawpkg\Tests\Sikulitest.class
 com\bhiawpkg\Tests\Report_DownloadTest.class
+com\bhiawpkg\Tests\Accounts_CompanycreationTest.class
+com\bhiawpkg\Tests\Accounts_ProjectcreationTest.class
 com\bhiawpkg\Tests\NewMeetingTest.class
 NewTest.class
 com\bhiawpkg\Tests\MonthlyTaskTest.class
@@ -34,6 +36,7 @@ com\gridtest\LoginTeston_grid.class
 com\bhiawpkg\Tests\DDTProjectCreation.class
 com\bhiawpkg\Tests\ProjectMapping.class
 TestJava.class
+com\bhiawpkg\Tests\CmsLogoutTest.class
 com\bhiawpkg\Tests\Trial_NewTest.class
 com\bhidbpkg\test\DatabaseTestingDemo.class
 com\bhidbpkg\test\DBTest.class
@@ -54,6 +57,7 @@ com\bhiawpkg\Tests\AllWorkProgressfilterTest.class
 com\bhiawpkg\Tests\NewTest.class
 com\bhiawpkg\Tests\NewTestDD.class
 com\bhiawpkg\Tests\ExpiredExternalTaskCreationTest.class
+com\bhiawpkg\Tests\AccountsPurchaseTest.class
 com\bhiawpkg\Tests\SampleTest.class
 com\bhiawpkg\Tests\ExpiredInternalTaskCreationTest.class
 com\bhiawpkg\Tests\LoginTest.class

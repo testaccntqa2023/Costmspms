@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest">
+      <class name="com.bhiawpkg.Tests.DeleteAssignedTaskTest">
         <methods>
-          <include name="ExpiredExternalTaskCreation" invocation-numbers="0"/>
-          <include name="GetAddTask"/>
+          <include name="Login"/>
           <include name="Verifysuccessful"/>
+          <include name="DeleteAssignedTask"/>
           <include name="Launchbrowser"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest -->
+      </class> <!-- com.bhiawpkg.Tests.DeleteAssignedTaskTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

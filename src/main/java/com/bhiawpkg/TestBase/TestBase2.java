@@ -8,7 +8,6 @@ import java.time.Duration;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -142,6 +141,7 @@ public String getScreenShot(String imageName) throws IOException{
 	  pr=new Properties();
 	  pr.load(fin);
   }
+ 
   public void GetBrowser(String browser)
   {
 	  folder=new File(UUID.randomUUID().toString());
@@ -172,7 +172,7 @@ public String getScreenShot(String imageName) throws IOException{
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	
+	/*
 	@SuppressWarnings("deprecation")
 	public WebElement waitForElementWithPollingInterval(WebDriver driver,long time,WebElement element){
 		WebDriverWait wait = new WebDriverWait(driver, time);
@@ -180,7 +180,7 @@ public String getScreenShot(String imageName) throws IOException{
 		wait.ignoring(NoSuchElementException.class);
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	
+	*/
 	public void impliciteWait(long time){
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}

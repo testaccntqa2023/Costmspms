@@ -224,7 +224,7 @@ public class PurchasePage {
 	
 		GenericHelper gener=new GenericHelper();
 		 gener.typevalueinsearch(this.searchvalue, value);
-		// this.searchvalue.sendKeys(Keys.ENTER);
+		 this.searchvalue.sendKeys(Keys.ENTER);
 	}
 	public void selpurproject()
 	{

@@ -140,21 +140,6 @@
           <div class="suite-ProjemPMS-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.bhiawpkg.Tests.DeleteAssignedTaskTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DeleteAssignedTask">
-                  </a> <!-- DeleteAssignedTask -->
-                  <span class="method-name">DeleteAssignedTask</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-ProjemPMS-class-passed -->
-          <div class="suite-ProjemPMS-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.bhiawpkg.Tests.ExpiredInternalTaskTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,6 +151,21 @@
                   <span class="parameters">(INT03, TOUGHEN GLASS WORKS, TODAY(), 1, In-progress, 00:01, time entry description)</span>
                   <em>
 (If the time entry details can add)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjemPMS-class-passed -->
+          <div class="suite-ProjemPMS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhiawpkg.Tests.DeleteAssignedTaskTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteAssignedTask">
+                  </a> <!-- DeleteAssignedTask -->
+                  <span class="method-name">DeleteAssignedTask</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,25 +279,25 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ExpiredTask_AddDailyworkprogress')
-data.setCell(0, 2, 'com.bhiawpkg.Tests.ExpiredExternalWPRTest')
-data.setCell(0, 3, 78178);
+data.setCell(0, 1, 'DeleteAssignedTask')
+data.setCell(0, 2, 'com.bhiawpkg.Tests.DeleteAssignedTaskTest')
+data.setCell(0, 3, 60716);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'DeleteAssignedTask')
-data.setCell(1, 2, 'com.bhiawpkg.Tests.DeleteAssignedTaskTest')
-data.setCell(1, 3, 52866);
+data.setCell(1, 1, 'ExpiredTask_AddDailyworkprogress')
+data.setCell(1, 2, 'com.bhiawpkg.Tests.ExpiredExternalWPRTest')
+data.setCell(1, 3, 52185);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'ExpiredExternalTaskCreation')
 data.setCell(2, 2, 'com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest')
-data.setCell(2, 3, 31537);
+data.setCell(2, 3, 37457);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'ExpiredTask_AddTimeEntry')
 data.setCell(3, 2, 'com.bhiawpkg.Tests.ExpiredInternalTaskTest')
-data.setCell(3, 3, 27983);
+data.setCell(3, 3, 30575);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'ExpiredInternalTaskCreation')
 data.setCell(4, 2, 'com.bhiawpkg.Tests.ExpiredInternalTaskCreationTest')
-data.setCell(4, 3, 13480);
+data.setCell(4, 3, 19623);
 window.suiteTableData['ProjemPMS']= { tableData: data, tableDiv: 'times-div-ProjemPMS'}
 return data;
 }
@@ -335,107 +335,107 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">GetAddTask</span>
-                <span class="method-start">44011 ms</span>
+                <span class="method-start">11582 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ExpiredInternalTaskCreation(ASHLYPMS, Internal, Painting, INT03, 500, Sq Ft, 200, 100000, Aluva, Third floor, TODAY(), EDATE(K2,...)</span>
-                <span class="method-start">53494 ms</span>
+                <span class="method-start">15671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Verifysuccessful([TestResult name=ExpiredInternalTaskCreation status=SUCCESS method=ExpiredInternalTaskCreationTest.E...)</span>
-                <span class="method-start">66986 ms</span>
+                <span class="method-start">35303 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bhiawpkg.Tests.ExpiredExternalTaskCreationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Launchbrowser</span>
-                <span class="method-start">67211 ms</span>
+                <span class="method-start">35521 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">GetAddTask</span>
-                <span class="method-start">72673 ms</span>
+                <span class="method-start">41139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ExpiredExternalTaskCreation(ASHLYPMS, External, Painting, Base Painting, 500, Sq Ft, 200, 100000, Aluva, Third floor, TODAY(), E...)</span>
-                <span class="method-start">82152 ms</span>
+                <span class="method-start">45999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Verifysuccessful([TestResult name=ExpiredExternalTaskCreation status=SUCCESS method=ExpiredExternalTaskCreationTest.E...)</span>
-                <span class="method-start">113690 ms</span>
+                <span class="method-start">83457 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bhiawpkg.Tests.ExpiredExternalWPRTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Launchbrowser</span>
-                <span class="method-start">113912 ms</span>
+                <span class="method-start">83658 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">Login</span>
-                <span class="method-start">118249 ms</span>
+                <span class="method-start">89791 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ExpiredTask_AddDailyworkprogress(ASHLYPMS, TODAY(), - - SUBTSK3, 20, TOUGHEN GLASS WORKS, In-progress, dailworkprogress description)</span>
-                <span class="method-start">126079 ms</span>
+                <span class="method-start">97992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">204259 ms</span>
+                <span class="method-start">150179 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">205455 ms</span>
+                <span class="method-start">151412 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bhiawpkg.Tests.ExpiredInternalTaskTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Launchbrowser</span>
-                <span class="method-start">206139 ms</span>
+                <span class="method-start">152086 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">GetAddTask</span>
-                <span class="method-start">210810 ms</span>
+                <span class="method-start">156919 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ExpiredTask_AddTimeEntry(INT03, TOUGHEN GLASS WORKS, TODAY(), 1, In-progress, 00:01, time entry description)</span>
-                <span class="method-start">222281 ms</span>
+                <span class="method-start">165188 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">250266 ms</span>
+                <span class="method-start">195766 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">251178 ms</span>
+                <span class="method-start">200701 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bhiawpkg.Tests.DeleteAssignedTaskTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Launchbrowser</span>
-                <span class="method-start">251852 ms</span>
+                <span class="method-start">201375 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">Login</span>
-                <span class="method-start">256718 ms</span>
+                <span class="method-start">206249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DeleteAssignedTask</span>
-                <span class="method-start">260114 ms</span>
+                <span class="method-start">210216 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Verifysuccessful([TestResult name=DeleteAssignedTask status=SUCCESS method=DeleteAssignedTaskTest.DeleteAssignedTask(...)</span>
-                <span class="method-start">312980 ms</span>
+                <span class="method-start">270935 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">317853 ms</span>
+                <span class="method-start">275838 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

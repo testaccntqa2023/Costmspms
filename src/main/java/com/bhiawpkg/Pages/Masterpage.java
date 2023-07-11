@@ -31,7 +31,7 @@ public class Masterpage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//li//a[text()='Settings']") public WebElement settingsmenu;
+	@FindBy(xpath = "//*//a[text()='Settings']") public WebElement settingsmenu;
 	@FindBy(xpath = "//li//a[text()='Users']") public WebElement settingsusers;
 	@FindBy(xpath = "//table//tbody//tr//td[2]") public WebElement grdusers;
 	@FindBy(xpath = "//*//form[1]/div[2]/input[1]") public WebElement userpagesavebtn;

@@ -7,6 +7,8 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import com.BHIAW.Helper.GenericHelper;
 import com.BHIAW.Helper.LoggerHelper;
 import com.bhiawpkg.Config.Config;
 import com.bhiawpkg.Pages.AssignedtaskPage;
@@ -52,6 +54,8 @@ public void Login()
 		  AT.clickAssignedTaskMenu();
 		 impliciteWait(30);
 		  logger.info("-------User Clik Assigned Tasks-------");
+		  GenericHelper genh=new GenericHelper();
+		  genh.Reducescreensize();
 		  AT.selpjtfrmgrd(pjtname);
 		 impliciteWait(30);
 		  logger.info("--------user select the project from the table dropdown----------");

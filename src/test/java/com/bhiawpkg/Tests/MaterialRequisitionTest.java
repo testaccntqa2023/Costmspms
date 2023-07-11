@@ -18,7 +18,7 @@ import com.bhiawpkg.Config.Config;
 import com.bhiawpkg.Pages.CompanyPage;
 import com.bhiawpkg.Pages.LoginPage1;
 import com.bhiawpkg.Pages.LogoutPage;
-import com.bhiawpkg.Pages.LogoutPage1;
+import com.bhiawpkg.Pages.CMSLogoutPage;
 import com.bhiawpkg.Pages.Masterpage;
 import com.bhiawpkg.Pages.ProjectPage;
 import com.bhiawpkg.Pages.ProjectcreationPage;
@@ -128,7 +128,7 @@ public class MaterialRequisitionTest extends TestBase2{
   @AfterMethod
   public void Logout() throws InterruptedException
   {
- 	  LogoutPage1 logout=new LogoutPage1(driver);
+ 	  CMSLogoutPage logout=new CMSLogoutPage(driver);
  	  logout.clickusericon();
  	  logout.clickLogout();
   }

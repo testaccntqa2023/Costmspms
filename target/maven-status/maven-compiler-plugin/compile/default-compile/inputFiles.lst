@@ -24,12 +24,12 @@ C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\LogoutPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\MenupermissionPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\BHIAW\Helper\Uploadhelper.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\PurchaseItemMasterPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\CompanyPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\GalleryPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\TestBase\TestBase.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\ManageAccessID.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawdatabasepkg\Database\DataBase.java
-C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\LogoutPage1.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\BHIAW\Helper\LoggerHelper.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\TimeEntryPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\HomePage.java
@@ -42,6 +42,7 @@ C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Utility\Reporting1.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\VendorPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\ClientPage.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\CMSLogoutPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\AssignedtaskPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\LoginPage.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\main\java\com\bhiawpkg\Pages\AMSPage.java

@@ -14,6 +14,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import com.BHIAW.Helper.DropdownHelper;
+import com.BHIAW.Helper.JavascriptHelper;
 import com.BHIAW.Helper.LoggerHelper;
 
 public class MyTaskPage {
@@ -52,8 +53,9 @@ public class MyTaskPage {
 	@FindBy(xpath="//a[text()='Add Time']")public WebElement AddTimebtn;
 	//-----------------------18-04-2023
 	@FindBy(xpath="//thead/tr[2]/td[11]/select[1]")public WebElement mytaskstatus;
+	//@FindBy(xpath="//thead/tr[2]/td[12]/select[1]")public WebElement mytasktype;
 	/*
-		@FindBy(xpath="")public WebElement;
+		@FindBy(xpath="//thead/tr[2]/td[12]/select[1]")public WebElement;
 		@FindBy(xpath="")public WebElement;
 		@FindBy(xpath="")public WebElement;
 		@FindBy(xpath="")public WebElement;
@@ -185,7 +187,8 @@ public class MyTaskPage {
 	{
 		Date chkDate;
 		SimpleDateFormat dateFormatter = new SimpleDateFormat("dd-MM-yy");
-		
+		//JavascriptHelper js= new JavascriptHelper(driver);
+		//js.scrollDownByPixel();
 		List<WebElement>lstmytsk=driver.findElements(By.xpath("//table//tbody/tr"));
 		for(int i=1;i<=lstmytsk.size();i++)
 		{

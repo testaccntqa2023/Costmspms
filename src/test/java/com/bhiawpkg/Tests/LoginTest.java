@@ -36,4 +36,26 @@ public class LoginTest extends TestBase{
 		}
 	  	//con.Geturl();
 	 }
+  @Test
+  public void cmsLogin() throws InterruptedException, IOException {
+	  LoginPage bhilogin=new LoginPage(driver);
+	  Config con=new Config(pr);
+	  bhilogin.CMSLogin(con.Getusername(), con.Getpassword());
+	  Thread.sleep(4000);
+	  loger.info("--------Login is doing------------");
+	  boolean status=bhilogin.verifysuccessfull();
+	  	  if(status==true){
+			Assert.assertTrue(true);
+			Thread.sleep(2000);
+			bhilogin.Clickbox();
+			loger.info("==============login is sucessful=========================");
+			
+		}
+		else{
+			captureScreen(driver,"loginTest");
+			 // Assert.assertTrue(false);
+			Assert.assertTrue(false, "==============login is not sucessful=========================");
+		}
+	  	//con.Geturl();
+	 }
 }

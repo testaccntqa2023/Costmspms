@@ -86,7 +86,7 @@ public class MenupermissionTest extends TestBase {
 	 loger.info("==============user give all permission=========================");
 	 Thread.sleep(3000);
 	 WebElement scrolltop=driver.findElement(By.xpath("//*[@class='icon-arrow-up']"));
-	 waitForElementWithPollingInterval(driver, 3000, scrolltop);
+	// waitForElementWithPollingInterval(driver, 3000, scrolltop);
 	 menupg.clickscroltotop();
 	 Thread.sleep(2000);
 	 menupg.clicksavebutton();

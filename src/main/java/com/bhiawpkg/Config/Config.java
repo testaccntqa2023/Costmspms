@@ -115,4 +115,25 @@ public class Config {
 	{
 		return pr.getProperty("Cloneproject");
 	}
+	public String Getcompanyusername()
+	{
+		return pr.getProperty("activeusername");
+	}
+	public String GetAssignedusername()
+	{
+		return pr.getProperty("Assignedusername");
+	}
+	public String GetCompanyname()
+	{
+		return pr.getProperty("Companyname");
+	}
+	public String GetaccntClientname()
+	{
+		return pr.getProperty("Clientname");
+	}
+	public String GetaccntProjectname()
+	{
+		return pr.getProperty("ActionProjectName");
+	}
+	
 }

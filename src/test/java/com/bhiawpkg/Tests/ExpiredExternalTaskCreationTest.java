@@ -213,9 +213,9 @@ public void Verifysuccessful(ITestResult result) throws IOException, Interrupted
 	}
 		LogoutPage logout=new LogoutPage(driver);
 		logout.clickusericon();
-		impliciteWait(30);
+		Thread.sleep(2000);
 		logout.clickLogout();
-		impliciteWait(30);
+		Thread.sleep(2000);
 		//driver.get("http://stagepms.ashlyerp.xyz/index.php?r=site/login");
 }
 public void Reducescreensize() throws AWTException

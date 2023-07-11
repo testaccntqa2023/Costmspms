@@ -210,12 +210,12 @@ public class ExpiredInternalTaskCreationTest extends TestBase {
 				captureScreen(driver,result.getName());
 				Assert.assertTrue(false, "********"+result.getName() +" Details added  failed!!************");
 			}
-			impliciteWait(30);
+			Thread.sleep(2000);
 			LogoutPage logout=new LogoutPage(driver);
 			logout.clickusericon();
-			impliciteWait(30);
+			Thread.sleep(2000);
 			logout.clickLogout();
-			impliciteWait(30);
+			Thread.sleep(2000);
 			//driver.get("http://costmspms.bhiapp.net/pms/");
 	  }
 }

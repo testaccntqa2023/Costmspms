@@ -17,7 +17,8 @@ public class LoginPage {
 	private final Logger logger=LoggerHelper.getLogger(LoginPage.class);
 	@FindBy(id="LoginForm_username")public WebElement username;
 	@FindBy(id="LoginForm_password")public WebElement password;
-	@FindBy(xpath="//*[@class='btn btn-success uppercase']")public WebElement Loginbttn;
+	@FindBy(xpath="//*[@value='Login']")public WebElement cmsLoginbttn;
+	@FindBy(xpath = "//button[contains(text(),'Login')]")public WebElement Loginbtn;
 	//@FindBy(xpath="//body/div[2]/div[2]/div[4]/div[1]/div[1]/div[2]/i[1]")public WebElement closebtn;
 	/*//xpath=//div[@id='box']/i*/
 	@FindBy(xpath="//*[@class='container clearfix']")public WebElement successmsg;
@@ -39,18 +40,27 @@ public class LoginPage {
 		 this.password.sendKeys(password);
 		 logger.info("----------Password is getting------------");
 	}
+	public void clickcmsloginbtn()
+	{
+		this.cmsLoginbttn.click();
+		logger.info("----------Loginbutton is clicked------------");
+	}
 	public void clickloginbtn()
 	{
-		this.Loginbttn.click();
+		this.Loginbtn.click();
 		logger.info("----------Loginbutton is clicked------------");
-		//this.closebtn.click();
-		
 	}
 	public void Login(String username,String password)
 	{
 		typeusername(username);
 		typepassword(password);
 		clickloginbtn();
+	}
+	public void CMSLogin(String username,String password)
+	{
+		typeusername(username);
+		typepassword(password);
+		clickcmsloginbtn();
 	}
 	public boolean verifysuccessfull()
 	{

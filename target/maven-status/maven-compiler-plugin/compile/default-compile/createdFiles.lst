@@ -4,7 +4,6 @@ com\bhiawpkg\Pages\TimeEntryPage.class
 com\bhiawpkg\Config\Config.class
 com\BHIAW\Helper\GenericHelper.class
 com\bhiawdatabasepkg\Database\DataBase.class
-com\bhiawpkg\Pages\LogoutPage1.class
 com\bhiawpkg\Pages\MenupermissionPage.class
 com\bhiawpkg\Pages\TemplatePage.class
 com\bhiawpkg\Pages\Masterpage.class
@@ -21,6 +20,7 @@ com\BHIAW\Helper\JavascriptHelper.class
 com\BHIAW\Helper\LoggerHelper.class
 com\bhiawpkg\Pages\LoginPage.class
 com\bhiawpkg\Pages\NewMeetingsPage.class
+com\bhiawpkg\Pages\PurchaseItemMasterPage.class
 com\bhiawpkg\Pages\CompanyPage.class
 com\bhiawpkg\Pages\GalleryPage.class
 com\bhiawpkg\Pages\MyTaskPage.class
@@ -37,6 +37,7 @@ com\bhiawpkg\Pages\AllWorkProgressfilterPage.class
 com\bhiawpkg\Pages\LogoutPage.class
 com\BHIAW\Helper\Radiobuttonhelper.class
 com\bhiawpkg\Pages\AssignedtaskPage.class
+com\bhiawpkg\Pages\CMSLogoutPage.class
 com\bhiawpkg\Pages\ProjectcreationPage.class
 com\BHIAW\Helper\Uploadhelper.class
 com\bhiawpkg\Pages\UserPage.class

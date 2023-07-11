@@ -15,6 +15,15 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.bhiawpkg.Tests.DeleteAssignedTaskTest -->
+      <class name="com.bhiawpkg.Tests.ExpiredInternalTaskTest">
+        <methods>
+          <include name="Logout"/>
+          <include name="ExpiredTask_AddTimeEntry" invocation-numbers="0"/>
+          <include name="GetAddTask"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bhiawpkg.Tests.ExpiredInternalTaskTest -->
     </classes>
   </test> <!-- Regression costmspms(failed) -->
 </suite> <!-- Failed suite [ProjemPMS] -->

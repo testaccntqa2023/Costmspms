@@ -406,7 +406,7 @@ public class AssignedtaskPage {
 	public void seltskmilestone1()
 	{
 		DropdownHelper dpseltskmilestoney=new DropdownHelper(driver);
-		dpseltskmilestoney.SelectUsingIndex(taskmilestone, 1);
+		dpseltskmilestoney.SelectUsingIndex(taskmilestone, 2);
 		logger.info("-------------select task milestone------------------");
 	}
 	public void seltskcontractor(String tskcontractor)

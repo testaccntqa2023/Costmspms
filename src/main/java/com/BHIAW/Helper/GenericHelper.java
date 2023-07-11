@@ -1,5 +1,9 @@
 package com.BHIAW.Helper;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -109,6 +113,21 @@ private static final Logger log = LoggerHelper.getLogger(GenericHelper.class);
 	    } catch (Exception e) {}
 
 	    return result;
+	}
+	public void Reducescreensize() throws  InterruptedException, AWTException
+	{
+		Robot robo=new Robot();
+		robo.keyPress(KeyEvent.VK_CONTROL);
+	    robo.keyPress(KeyEvent.VK_MINUS);
+	    robo.keyPress(KeyEvent.VK_MINUS);
+	    robo.keyRelease(KeyEvent.VK_CONTROL);
+	    robo.keyRelease(KeyEvent.VK_MINUS);
+	    Thread.sleep(2000);
+	    robo.keyPress(KeyEvent.VK_CONTROL);
+	    robo.keyPress(KeyEvent.VK_MINUS);
+	    robo.keyRelease(KeyEvent.VK_CONTROL);
+	    robo.keyRelease(KeyEvent.VK_MINUS);
+	    Thread.sleep(2000);
 	}
 	
 }

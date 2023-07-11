@@ -20,7 +20,7 @@
      <class name="com.bhiawpkg.Tests.MenupermissionTest" />
      </classes>
  </test> <!-- Test -->
-<test name="Regression costmspms" enabled="false"  > <!--  Major functionalities section-->
+<test name="Regression costmspms"  enabled="false" > <!--  Major functionalities section-->
     <classes>
      <!--  <class name="com.bhiawpkg.Tests.ClientTest" />
      <class name="com.bhiawpkg.Tests.UsercreationTest" />

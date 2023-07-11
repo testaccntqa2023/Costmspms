@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -134,14 +133,14 @@ public String getScreenShot(String imageName) throws IOException{
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	
+	/*
 	public WebElement waitForElementWithPollingInterval(WebDriver driver,long time,WebElement element){
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		wait.pollingEvery(5, TimeUnit.SECONDS);
 		wait.ignoring(NoSuchElementException.class);
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	
+	*/
 	public void impliciteWait(long time){
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}

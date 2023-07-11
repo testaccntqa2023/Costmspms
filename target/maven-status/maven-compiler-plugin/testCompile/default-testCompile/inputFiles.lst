@@ -9,6 +9,7 @@ C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhidbpkg\test\DBTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\ActionsWPR.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\TestJava.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\CmsLogoutTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\LocalTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\MaterialRequestTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\UserEditDelete.java
@@ -20,8 +21,10 @@ C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhidbpkg\test\LoginTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhidbpkg\test\Test_DBValidation.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\ItemConsumption.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\AccountsPurchaseTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\AssignedTaskTest2.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\ClientTest.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\Accounts_ProjectcreationTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\ExpiredInternalTaskTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\Sikulitest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\gridtest\Kone_loginTest.java
@@ -31,6 +34,7 @@ C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\TimeEntryTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\MenupermissionTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\ProjectMasterSchedule.java
+C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\Accounts_CompanycreationTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\LoginTest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\Manageaccessidtest.java
 C:\Users\divya\OneDrive\Desktop\Works\BHI TESTING\COSTMSPMS\BHIAW\src\test\java\com\bhiawpkg\Tests\MaterialRequisitionTest.java

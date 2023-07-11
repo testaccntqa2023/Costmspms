@@ -78,6 +78,8 @@ public class ExpiredExternalWPRTest extends TestBase{
 	  logger.info("-------------------user select the project--------------------------------------");
 	  mytskpg.seltaskstatus("In-progress");
 	  Thread.sleep(2000);
+	 mytskpg.seltasktype("External");
+	  Thread.sleep(2000);
 	 mytskpg.Getexpiredtask();
 	  
 	  
